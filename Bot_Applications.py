@@ -2,6 +2,8 @@ from tkinter import *
 from tkinter import simpledialog
 from tkinter import messagebox
 import numpy as np
+
+
 def cal_bmi():
     global res
     application_window = Tk()
@@ -96,6 +98,7 @@ def cal_bodyfat():
         res = "Bot: Hi! What can I do for you?(type 'quit' to stop)"
     return res
 
+
 def set_goal():
     global res
     global goal_path
@@ -109,7 +112,9 @@ def set_goal():
     application_window.geometry("0x0")
     confirm = messagebox.askokcancel("Confirm", "Calculate Daily Calorie Intake?")
     if confirm:
-        goal = simpledialog.askstring("select your goal", "Select Your Fitness Goal: a)lose weight b)gain muscle c)maintain current weight", parent=application_window)
+        goal = simpledialog.askstring("select your goal",
+                                      "Select Your Fitness Goal: a)lose weight b)gain muscle c)maintain current weight",
+                                      parent=application_window)
         if goal.lower() == "a":
             goal_path = "a"
         elif goal.lower() == "b":
@@ -133,15 +138,19 @@ def set_goal():
         bmi = np.divide(weight, np.square(height))
         if gender.lower() == "a" or gender.lower() == "male":
             fat_rate = 1.2 * bmi + 0.23 * age - 5.4 - 10.8 * 1
-            BMR = 66 + np.multiply(6.3, np.multiply(weight, 2.20462)) + np.multiply(12.9, np.multiply(height,39.3701)) - np.multiply(6.8, age)
+            BMR = 66 + np.multiply(6.3, np.multiply(weight, 2.20462)) + np.multiply(12.9, np.multiply(height,
+                                                                                                      39.3701)) - np.multiply(
+                6.8, age)
         if gender.lower() == "b" or gender.lower() == "female":
             fat_rate = 1.2 * bmi + 0.23 * age - 5.4 - 10.8 * 0
-            BMR = 655 + np.multiply(4.3, np.multiply(weight, 2.20462)) + np.multiply(4.7, np.multiply(height,39.3701)) - np.multiply(4.7, age)
+            BMR = 655 + np.multiply(4.3, np.multiply(weight, 2.20462)) + np.multiply(4.7, np.multiply(height,
+                                                                                                      39.3701)) - np.multiply(
+                4.7, age)
         activity = simpledialog.askstring("select your daily activity level",
-                                      "Select your daily activity level: a)little or no exercise b)light exercise/sports 1-3 days/week c)moderate exercise/sports 3-5 days/week d)hard exercise/sports 6-7 days a week e)very hard exercise/sports & physical job or 2x training",
-                                      parent=application_window)
+                                          "Select your daily activity level: a)little or no exercise b)light exercise/sports 1-3 days/week c)moderate exercise/sports 3-5 days/week d)hard exercise/sports 6-7 days a week e)very hard exercise/sports & physical job or 2x training",
+                                          parent=application_window)
         if activity.lower() == "a":
-            cal = np.multiply(BMR,1.2)
+            cal = np.multiply(BMR, 1.2)
         elif activity.lower() == "b":
             cal = np.multiply(BMR, 1.375)
         elif activity.lower() == "c":
@@ -151,9 +160,10 @@ def set_goal():
         elif activity.lower() == "e":
             cal = np.multiply(BMR, 1.9)
         if goal_path == "a":
-            res = "In order to lose weight, your daily calorie intake should be less than"+str(cal-500)+"cal -"+str(cal-1000)+"cal."
+            res = "In order to lose weight, your daily calorie intake should be less than" + str(
+                cal - 500) + "cal -" + str(cal - 1000) + "cal."
         elif goal_path == "b":
-            res = "In order to gain muscle, consume more than"+str(cal)+"cal a day."
+            res = "In order to gain muscle, consume more than" + str(cal) + "cal a day."
         elif goal_path == "c":
             res = "To maintain your current weight, your daily calorie intake should be" + str(cal) + "cal."
     else:

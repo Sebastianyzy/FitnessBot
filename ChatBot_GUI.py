@@ -34,7 +34,7 @@ def send():
                 if tag == "BMI":
                     res = Bot_Applications.cal_bmi()
                 elif tag == "Calorie":
-                    res= Bot_Applications.set_goal()
+                    res = Bot_Applications.set_goal()
                 elif tag == "Body Fat":
                     res = Bot_Applications.cal_bodyfat()
             else:
@@ -80,11 +80,9 @@ chatWindow.place(x=6, y=6, height=386, width=370)
 EntryBox.place(x=128, y=401, height=90, width=265)
 Button.place(x=6, y=401, height=90)
 
-
 # initial greeting
 chatWindow.config(state=NORMAL)
 chatWindow.insert(END, "Bot: Hi! What can I do for you?(type 'quit' to stop)" + '\n\n')
 chatWindow.config(foreground="#442265", font=("Verdana", 12))
 chatWindow.config(state=DISABLED)
 chatWindow.yview(END)
-
