@@ -4,12 +4,14 @@ from tkinter import messagebox
 import numpy as np
 
 
+# calculate user's bmi
 def cal_bmi():
     global res
     application_window = Tk()
     application_window.title("calculate bmi")
     application_window.geometry("0x0")
     confirm = messagebox.askokcancel("Confirm", "Calculate BMI?")
+    # confirm to run the function
     if confirm:
         weight = float(simpledialog.askfloat("weight", "Enter your weight in kg:", parent=application_window))
         height = float(simpledialog.askfloat("height", "Enter your height in meter:", parent=application_window))
@@ -32,6 +34,7 @@ def cal_bmi():
     return res
 
 
+# calculate user's body fat percentage
 def cal_bodyfat():
     global formula
     global res
@@ -40,6 +43,7 @@ def cal_bodyfat():
     application_window.title("calculate body fat")
     application_window.geometry("0x0")
     confirm = messagebox.askokcancel("Confirm", "Calculate Body Fat?")
+    # confirm to run the function
     if confirm:
         gender = simpledialog.askstring("gender", "Enter your gender: a) male b)female", parent=application_window)
         if gender.lower() == "a" or gender.lower() == "male":
@@ -99,6 +103,7 @@ def cal_bodyfat():
     return res
 
 
+# calculate user's calorie intake, and set calorie consumption based on  user's fitness goal
 def set_goal():
     global res
     global goal_path
@@ -111,6 +116,7 @@ def set_goal():
     application_window.title("set fitness goal")
     application_window.geometry("0x0")
     confirm = messagebox.askokcancel("Confirm", "Calculate Daily Calorie Intake?")
+    # confirm
     if confirm:
         goal = simpledialog.askstring("select your goal",
                                       "Select Your Fitness Goal: a)lose weight b)gain muscle c)maintain current weight",

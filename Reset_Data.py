@@ -1,4 +1,7 @@
 #After editing the data in the intents.json file, run this to update the data
+'''
+This is not a part of the program, use it to update data file
+'''
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 

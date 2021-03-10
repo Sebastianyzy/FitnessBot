@@ -7,20 +7,24 @@ import numpy as np
 import random
 
 
+# get the input message, call the associated functions and return the response as string
 def send():
     global res
     special_functions = ["BMI", "Calorie", "Body Fat"]
     msg = EntryBox.get("1.0", 'end-1c').strip()
     EntryBox.delete("0.0", END)
+    # do nothing if no input
     if msg != "":
         chatWindow.config(state=NORMAL)
         chatWindow.insert(END, "You: " + msg + '\n\n')
         chatWindow.config(foreground="#442265", font=("Verdana", 12))
+        # exit the program
         if msg == "quit":
             exit()
         results = TrainingData.model.predict([TrainingData.bag_of_words(msg, TrainingData.words)])[0]
         results_index = np.argmax(results)
         tag = TrainingData.labels[results_index]
+        # check if the input triggers any special functions
         if not special_functions.__contains__(tag):
             if results[results_index] > 0.7:
                 for tg in TrainingData.data["intents"]:
