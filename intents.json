@@ -1,0 +1,113 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "How are you doing", "How you doing","whatsup","sup","hey","whatup","hey bro","bruh"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey, what's up, how are you doing?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","see you","later","bye bye","talk to you later","see ya"],
+         "responses": ["Talk to you later", "Goodbye!", "cya :)"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "your age", "what is your age", "how old are you", "age?","when were you born","when were you created","whats your age"],
+         "responses": ["I was created in March 2020","I am only two month old"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you","whats ", "what's your name?","name","what are you","who are you","AI Chat Bot","chat bot","are you a robot","are you a bot"],
+         "responses": ["I am an AI Chat Bot who is specialized in knowledge in fitness", "I am a Fitness ChatBot"],
+         "context_set": ""
+        },
+        {"tag": "job",
+         "patterns": ["what can you do","what do you do", "task","ask","what's your job","what do you do for living","specialized in","what are you specialized in", "what to ask", "what should I ask","hobby","hobbies","what are your hobbies","what do you know","what do I say","what to do"],
+         "responses": ["I can answer questions about fitness, such as 'how to perform a squat', 'how to recover from an ankle injury'...","Ask me how to lose weight", "Ask me how much calories do I need to gain muscle", "I can do a few things. For example, calculate your body fat percentage"],
+         "context_set": ""
+        },
+        {"tag": "BMI",
+         "patterns": ["calculate bmi", "BMI", "Body mass index", "Body mass","mass index", "calculate body mass","calculate my bmi","can you calculate bmi"],
+         "responses": [],
+         "context_set": ""
+        },
+        {"tag": "Body Fat",
+         "patterns": ["fat", "Body Fat","body fat percentage","fat percentage","percentage","calculate body fat","calculate body fat percentage","am I fat","can you calculate my body fat percentage"],
+         "responses": [],
+         "context_set": ""
+        },
+        {"tag": "Calorie",
+         "patterns": ["how much should I eat","how much calorie","how much cal","Calorie","Cal","cal intake","cal daily intake","calculate calorie intake","calculate calorie","how to lose weight","lose weight","how to be thin","how to be thick","how to gain weight","gain weight", "gain muscle","lose fat","gain fat", "become thin", "fitness goal","set fitness goal","goal","how much calorie should I consume"],
+         "responses": [],
+         "context_set": ""
+        },
+        {"tag": "squat",
+         "patterns": ["squat"],
+         "responses": ["squat"],
+         "context_set": ""
+        },
+        {"tag": "push press",
+         "patterns": ["push press"],
+         "responses": ["push press"],
+         "context_set": ""
+        },
+        {"tag": "deadlift",
+         "patterns": ["deadlift"],
+         "responses": ["deadlift"],
+         "context_set": ""
+        },
+        {"tag": "bench press",
+         "patterns": ["bench press"],
+         "responses": ["bench press"],
+         "context_set": ""
+        },
+        {"tag": "pull up",
+         "patterns": ["pull up"],
+         "responses": ["pull up"],
+         "context_set": ""
+        },
+        {"tag": "abs",
+         "patterns": ["abs"],
+         "responses": ["abs"],
+         "context_set": ""
+        },
+        {"tag": "ankle",
+         "patterns": ["ankle"],
+         "responses": ["ankle"],
+         "context_set": ""
+        },
+        {"tag": "hip",
+         "patterns": ["hip"],
+         "responses": ["hip"],
+         "context_set": ""
+        },
+        {"tag": "mobility",
+         "patterns": ["mobility"],
+         "responses": ["mobility"],
+         "context_set": ""
+        },
+        {"tag": "workout",
+         "patterns": ["workout"],
+         "responses": ["workout"],
+         "context_set": ""
+        },
+        {"tag": "back",
+         "patterns": ["back"],
+         "responses": ["back"],
+         "context_set": ""
+        },
+        {"tag": "shoulder",
+         "patterns": ["shoulder"],
+         "responses": ["shoulder"],
+         "context_set": ""
+        },
+        {"tag": "Weightlifting",
+         "patterns": ["Weightlifting"],
+         "responses": ["Weightlifting"],
+         "context_set": ""
+        },
+        {"tag": "Supplement",
+         "patterns": ["Supplement"],
+         "responses": ["Supplement"],
+         "context_set": ""
+        }
+]
+}
