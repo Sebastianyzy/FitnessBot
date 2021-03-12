@@ -40,74 +40,60 @@
          "context_set": ""
         },
         {"tag": "squat",
-         "patterns": ["squat"],
-         "responses": ["squat"],
+         "patterns": ["squat","how to squat","how to perform squat","air squat","how to do squat","how to perform air squat","weighted squat","how to squat with weight","squat form","train squat","how to do squat","what is squat","what's squat","squat technique"],
+         "responses": ["Check out this video: https://www.youtube.com/watch?v=Uv_DKDl7EjA","Check this out: https://www.youtube.com/watch?v=8Kls95w2jFA&list=PLTFXmc6Qt4toHoJXlhCqmCJ-a9ZsD1fC0&index=16", "I found some tutorial video: https://www.youtube.com/watch?v=ubdIGnX2Hfs&list=PLTFXmc6Qt4toHoJXlhCqmCJ-a9ZsD1fC0&index=1"],
          "context_set": ""
         },
         {"tag": "push press",
-         "patterns": ["push press"],
-         "responses": ["push press"],
+         "patterns": ["push press","how to push press","shoulder press", "how to shoulder press", "what's push press","whats shoulder press", "shoulder press from"],
+         "responses": ["Check out this video: https://www.youtube.com/watch?v=iaBVSJm78ko"],
          "context_set": ""
         },
         {"tag": "deadlift",
-         "patterns": ["deadlift"],
-         "responses": ["deadlift"],
+         "patterns": ["deadlift", "what's deadlift","how to do deadlift","deadlift form","deadlift form","how to deadlift","deadlift technique"],
+         "responses": ["Check out this video about deadlift: https://www.youtube.com/watch?v=WP0IFHkkRZ0"],
          "context_set": ""
         },
         {"tag": "bench press",
-         "patterns": ["bench press"],
-         "responses": ["bench press"],
+         "patterns": ["bench press","what's bench press","what is bench press","how to bench","bench","how to bench press","bench press form","bench press technique"],
+         "responses": ["Check out this tutorial: https://www.youtube.com/watch?v=vthMCtgVtFw"],
          "context_set": ""
         },
         {"tag": "pull up",
-         "patterns": ["pull up"],
-         "responses": ["pull up"],
+         "patterns": ["pull up","what's pull up","how to pull up","pull up form","pull up technique","pull up tutorial","how to do pull ups"],
+         "responses": ["Here are some information about pull up: https://www.youtube.com/watch?v=sIvJTfGxdFo"],
          "context_set": ""
         },
         {"tag": "abs",
-         "patterns": ["abs"],
-         "responses": ["abs"],
+         "patterns": ["abs","how to train abs","six pack","sit ups","how to sit up","how to situp","what's situp","what is sit up","how to do a sit up"],
+         "responses": ["How to do a sit up: https://www.youtube.com/watch?v=iL06z9PWYs8"],
          "context_set": ""
         },
         {"tag": "ankle",
-         "patterns": ["ankle"],
-         "responses": ["ankle"],
-         "context_set": ""
-        },
-        {"tag": "hip",
-         "patterns": ["hip"],
-         "responses": ["hip"],
-         "context_set": ""
-        },
-        {"tag": "mobility",
-         "patterns": ["mobility"],
-         "responses": ["mobility"],
+         "patterns": ["ankle","ankle injury","sprain ankle","I sprain my ankle","ankle injury recovery","how to recover from ankle injury"],
+         "responses": ["Check this out: https://www.youtube.com/watch?v=pzy289wmsKQ"],
          "context_set": ""
         },
         {"tag": "workout",
-         "patterns": ["workout"],
-         "responses": ["workout"],
+         "patterns": ["workout","do workout","exercise", "workout list", "what to workout","I want to workout","workout recommendation", "exercise workout","begin workout"],
+         "responses": ["Let's do some hiit: https://www.womenshealthmag.com/uk/fitness/workouts/a707801/hiit-workout-at-home/","some cardios: https://www.nbcnews.com/better/lifestyle/15-minute-full-body-hiit-workout-no-equipment-required-ncna977711","Check this out: https://www.crossfit.com/workout/"],
          "context_set": ""
         },
         {"tag": "back",
-         "patterns": ["back"],
-         "responses": ["back"],
-         "context_set": ""
-        },
-        {"tag": "shoulder",
-         "patterns": ["shoulder"],
-         "responses": ["shoulder"],
-         "context_set": ""
-        },
-        {"tag": "Weightlifting",
-         "patterns": ["Weightlifting"],
-         "responses": ["Weightlifting"],
+         "patterns": ["back","how to train back", "back workout", "back up"],
+         "responses": ["here are some back workout: https://www.youtube.com/watch?v=eE7dzM0iexc"],
          "context_set": ""
         },
         {"tag": "Supplement",
-         "patterns": ["Supplement"],
-         "responses": ["Supplement"],
+         "patterns": ["Supplement","what supplement to take","protein","bcaa","how to take supplement","where to buy supplement","supplement website","buy supplements","pre workout","post workout"],
+         "responses": ["I found some supplements for you: https://popeyesonlineorders.com","Check this out: https://www.gnc.ca"],
+         "context_set": ""
+        },
+        {"tag": "push ups",
+         "patterns": ["push ups","push up","how to push up","pushup","pushups", "push up tutorial","push up technique","how to do a pushup","how to do a push up","how to do push ups","whats push up", "push up form","push up tutorial"],
+         "responses": ["Check this out: https://www.youtube.com/watch?v=i9sTjhN4Z3M"],
          "context_set": ""
         }
+
 ]
 }

@@ -1,7 +1,6 @@
 #After editing the data in the intents.json file, run this to update the data
-'''
-This is not a part of the program, use it to update data file
-'''
+#After editing the data in the intents.json file, run this to update the data
+#Delete checkpoint, data.pickle and all the model.tflearn file before running reset
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 
