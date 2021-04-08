@@ -1,4 +1,5 @@
 # FitnessBot
+
 **Description**\
 An AI ChatBot that specializes in fitness knowledge.
 
