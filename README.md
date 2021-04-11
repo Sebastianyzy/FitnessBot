@@ -16,7 +16,7 @@ Can answer questions about exercise form (ex. ask the bot how to do a pushup)
 `pip3 install tkinter`
 
 **To Run**\
-To run the program `python3 FitnessBot.py`\
-Run `Reset_Data.py` everytime the dataset is updated
+To run the program type `python3 FitnessBot.py`.\
+To retrain the model after updating data set, run `python3 Reset_Data.py`. 
 
 
