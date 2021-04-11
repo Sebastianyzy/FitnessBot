@@ -17,7 +17,7 @@ Can answer questions about exercise form (ex. ask the bot how to do a pushup)
 
 **To Run**\
 To run the program `python3 FitnessBot.py`\
-Run `Reset_Data.py` everytime the dataset is updated
+To retrain the model or update data set, first delete `data.pickle`,`checkpoint` and all the `model.tflearn.meta`files, then run`python3 Reset_Data.py` 
 .
 
 

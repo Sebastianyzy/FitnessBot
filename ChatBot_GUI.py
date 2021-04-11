@@ -12,6 +12,7 @@ def send():
     global res
     special_functions = ["BMI", "Calorie", "Body Fat"]
     msg = EntryBox.get("1.0", 'end-1c').strip()
+    msg = msg.lower()
     EntryBox.delete("0.0", END)
     # do nothing if no input
     if msg != "":
