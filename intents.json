@@ -30,7 +30,7 @@
          "context_set": ""
         },
         {"tag": "Body Fat",
-         "patterns": ["fat", "Body Fat","body fat percentage","fat percentage","percentage","calculate body fat","calculate body fat percentage","am I fat","can you calculate my body fat percentage","bodyfat","cal bodyfat","calculate bodyfat", "compute bodyfat", "body fat","fat"],
+         "patterns": ["fat", "Body Fat","body fat percentage","fat percentage","percentage","calculate body fat","calculate body fat percentage","am I fat","can you calculate my body fat percentage","bodyfat","cal bodyfat","calculate bodyfat", "compute bodyfat", "body fat","fat","fatbody"],
          "responses": [],
          "context_set": ""
         },
